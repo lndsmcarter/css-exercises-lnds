@@ -16,7 +16,8 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  padding: 8px;
 }
 
 .profile-image {
@@ -64,5 +65,5 @@ ul {
   list-style-type: none;
   padding: 0;
   display: flex;
-  justify-content: flex-start;
+  gap: 16px
 }
