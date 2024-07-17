@@ -1,6 +1,4 @@
-* {
-  border: 1px red solid;
-}
+
 
 
 /* this is some magical font-importing.  
@@ -59,6 +57,7 @@ a {
 
 .link-tree {
   flex: 1 0 0;
+  margin-left: 8px;
 }
 
 ul {
