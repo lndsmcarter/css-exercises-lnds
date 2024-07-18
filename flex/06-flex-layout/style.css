@@ -19,6 +19,11 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #eee;
 }
 
 div {
@@ -35,6 +40,7 @@ button {
   border-radius: 8px;
   border-radius: 2;
   padding: 5px;
+  margin: 10px;
   background: #eee;
 }
 
@@ -53,6 +59,7 @@ ul {
 }
 
 a {
-  color: gray
+  color: gray;
+  text-decoration: none;
 }
 
