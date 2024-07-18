@@ -1,31 +1,31 @@
-* {
+/* * {
   border: 1px red solid;
-}
+} */
 
 body {
   font-family: 'Courier New', Courier, monospace;
-}
-
-img {
-  width: 100px;
-  height: 100px;
-  padding: 0;
+  text-align: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
-}
-
-.plant {
-  flex: 1 1 0;
-  display: flex column;
-  justify-content: center;
+  margin-bottom: 32px;
 }
 
 .directory {
   display: flex;
-  justify-content: space-around;
+  gap: 52px;
+  justify-content: center;
+}
+
+.plant {
+  flex: 0 0 150px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
 
 .text {
